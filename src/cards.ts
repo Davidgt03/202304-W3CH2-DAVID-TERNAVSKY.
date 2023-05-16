@@ -24,7 +24,7 @@ export class Card extends Component {
   createTemplate() {
     return `<li class="character col">
         <div class="card character__card">
-          <img src="./public/joffrey.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/joffrey.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[0].name}  ${characs[0].house}</h2>
             <div class="character__info">
@@ -67,7 +67,7 @@ export class Card2 extends Component {
   createTemplate() {
     return `<li class="character col">
         <div class="card character__card">
-          <img src="./public/jaime.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/jaime.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[1].name}  ${characs[1].house}</h2>
             <div class="character__info">
@@ -110,7 +110,7 @@ export class Card3 extends Component {
   createTemplate() {
     return `<li class="character col">
         <div class="card character__card">
-          <img src="./public/daenerys.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/daenerys.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[2].name}  ${characs[2].house}</h2>
             <div class="character__info">
@@ -153,7 +153,7 @@ export class Card4 extends Component {
   createTemplate() {
     return `<li class="character col">
         <div class="card character__card">
-          <img src="./public/tyrion.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/tyrion.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[3].name}  ${characs[3].house}</h2>
             <div class="character__info">
@@ -196,7 +196,7 @@ export class Card5 extends Component {
   createTemplate() {
     return `<li class="character col">
         <div class="card character__card">
-          <img src="./public/bronn.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/bronn.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[4].name}  ${characs[4].house}</h2>
             <div class="character__info">
