@@ -5,7 +5,7 @@ const temp: HTMLUListElement = document.querySelector('.characters-list')!;
 
 const charac = `<li class="character col">
         <div class="card character__card">
-          <img src="./public/joffrey.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/joffrey.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[0].name}  ${characs[0].house}</h2>
             <div class="character__info">
@@ -38,7 +38,7 @@ temp.innerHTML += charac;
 
 const characTwo = `<li class="character col">
         <div class="card character__card">
-          <img src="./public/jaime.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/jaime.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[1].name}  ${characs[1].house}</h2>
             <div class="character__info">
@@ -72,7 +72,7 @@ temp.innerHTML += characTwo;
 
 const characThree = `<li class="character col">
         <div class="card character__card">
-          <img src="./public/daenerys.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/daenerys.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[2].name}  ${characs[2].house}</h2>
             <div class="character__info">
@@ -106,7 +106,7 @@ temp.innerHTML += characThree;
 
 const characFour = `<li class="character col">
         <div class="card character__card">
-          <img src="./public/tyrion.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/tyrion.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[3].name}  ${characs[3].house}</h2>
             <div class="character__info">
@@ -123,7 +123,7 @@ const characFour = `<li class="character col">
               <ul class="list-unstyled">
                 <li>${characs[3].age}</li>
                 <li>${characs[3].series}</li>
-                <li>${characs[3].speech}</li>
+
                 <li>brain</li>
                 
               </ul>
@@ -140,7 +140,7 @@ temp.innerHTML += characFour;
 
 const characFive = `<li class="character col">
         <div class="card character__card">
-          <img src="./public/bronn.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="/bronn.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${characs[4].name}  ${characs[4].house}</h2>
             <div class="character__info">
